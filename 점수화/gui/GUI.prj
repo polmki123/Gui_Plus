@@ -1,0 +1,134 @@
+<deployment-project plugin="plugin.ezdeploy" plugin-version="1.0">
+  <configuration build-checksum="3360051918" file="C:\Users\지수\Desktop\Gui_plus\gui\GUI.prj" location="C:\Users\지수\Desktop\Gui_plus\gui" name="GUI" preferred-package-location="C:\Users\지수\Desktop\Gui_plus\gui\GUI\for_redistribution" preferred-package-type="package.type.exe" target="target.ezdeploy.standalone" target-name="Application Compiler">
+    <param.appname>DanJi_Scoring</param.appname>
+    <param.icon />
+    <param.icons />
+    <param.version>1.0</param.version>
+    <param.authnamewatermark />
+    <param.email />
+    <param.company />
+    <param.summary />
+    <param.description />
+    <param.screenshot>C:\Users\지수\Desktop\아이콘.JPG</param.screenshot>
+    <param.guid />
+    <param.installpath.string>\DanJi_Scoring\</param.installpath.string>
+    <param.installpath.combo>option.installpath.programfiles</param.installpath.combo>
+    <param.logo />
+    <param.install.notes />
+    <param.target.install.notes />
+    <param.intermediate>${PROJECT_ROOT}\GUI\for_testing</param.intermediate>
+    <param.files.only>${PROJECT_ROOT}\GUI\for_redistribution_files_only</param.files.only>
+    <param.output>${PROJECT_ROOT}\GUI\for_redistribution</param.output>
+    <param.logdir>${PROJECT_ROOT}\GUI</param.logdir>
+    <param.enable.clean.build>false</param.enable.clean.build>
+    <param.user.defined.mcr.options />
+    <param.target.type>subtarget.standalone</param.target.type>
+    <param.support.packages />
+    <param.web.mcr>true</param.web.mcr>
+    <param.package.mcr>false</param.package.mcr>
+    <param.no.mcr>false</param.no.mcr>
+    <param.web.mcr.name>MyAppInstaller_web</param.web.mcr.name>
+    <param.package.mcr.name>MyAppInstaller_mcr</param.package.mcr.name>
+    <param.no.mcr.name>MyAppInstaller_app</param.no.mcr.name>
+    <param.windows.command.prompt>true</param.windows.command.prompt>
+    <param.create.log>false</param.create.log>
+    <param.log.file />
+    <param.native.matlab>false</param.native.matlab>
+    <param.checkbox>false</param.checkbox>
+    <param.example />
+    <param.help.text />
+    <unset>
+      <param.icon />
+      <param.icons />
+      <param.version />
+      <param.authnamewatermark />
+      <param.email />
+      <param.company />
+      <param.summary />
+      <param.description />
+      <param.guid />
+      <param.installpath.string />
+      <param.installpath.combo />
+      <param.logo />
+      <param.install.notes />
+      <param.target.install.notes />
+      <param.intermediate />
+      <param.files.only />
+      <param.output />
+      <param.logdir />
+      <param.enable.clean.build />
+      <param.user.defined.mcr.options />
+      <param.target.type />
+      <param.support.packages />
+      <param.web.mcr />
+      <param.package.mcr />
+      <param.no.mcr />
+      <param.web.mcr.name />
+      <param.package.mcr.name />
+      <param.no.mcr.name />
+      <param.windows.command.prompt />
+      <param.create.log />
+      <param.log.file />
+      <param.native.matlab />
+      <param.checkbox />
+      <param.example />
+      <param.help.text />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}\GUI.m</file>
+    </fileset.main>
+    <fileset.resources />
+    <fileset.package />
+    <fileset.depfun>
+      <file>C:\Users\지수\Desktop\Gui_plus\calcu.m</file>
+      <file>C:\Users\지수\Desktop\Gui_plus\check.m</file>
+      <file>C:\Users\지수\Desktop\Gui_plus\col_Circuit.m</file>
+      <file>C:\Users\지수\Desktop\Gui_plus\Compare_vertex.m</file>
+      <file>C:\Users\지수\Desktop\Gui_plus\CreateWall.m</file>
+      <file>C:\Users\지수\Desktop\Gui_plus\fix_num.m</file>
+      <file>${PROJECT_ROOT}\left.m</file>
+      <file>${PROJECT_ROOT}\origin.m</file>
+      <file>${PROJECT_ROOT}\Proportion.m</file>
+      <file>${PROJECT_ROOT}\remodel.m</file>
+      <file>${PROJECT_ROOT}\remove.m</file>
+      <file>${PROJECT_ROOT}\scoring.m</file>
+      <file>${PROJECT_ROOT}\scoring_m.m</file>
+      <file>C:\Users\지수\Desktop\Gui_plus\Imgclear.m</file>
+      <file>C:\Users\지수\Desktop\Gui_plus\Imgclear2.m</file>
+      <file>C:\Users\지수\Desktop\Gui_plus\load_long_wall.m</file>
+      <file>C:\Users\지수\Desktop\Gui_plus\Proportion_vertex.m</file>
+      <file>C:\Users\지수\Desktop\Gui_plus\Read_col_Circuit.m</file>
+      <file>C:\Users\지수\Desktop\Gui_plus\read_Process.m</file>
+      <file>C:\Users\지수\Desktop\Gui_plus\Read_row_Circuit.m</file>
+      <file>C:\Users\지수\Desktop\Gui_plus\Read_vertex.m</file>
+      <file>C:\Users\지수\Desktop\Gui_plus\Remove_vertex.m</file>
+      <file>C:\Users\지수\Desktop\Gui_plus\row_Circuit.m</file>
+      <file>C:\Users\지수\Desktop\Gui_plus\tiff_function.m</file>
+    </fileset.depfun>
+    <build-deliverables>
+      <file location="${PROJECT_ROOT}\GUI\for_testing" name="readme.txt" optional="true">C:\Users\지수\Desktop\Gui_plus\gui\GUI\for_testing\readme.txt</file>
+      <file location="${PROJECT_ROOT}\GUI\for_testing" name="DanJi_Scoring.exe" optional="false">C:\Users\지수\Desktop\Gui_plus\gui\GUI\for_testing\DanJi_Scoring.exe</file>
+      <file location="${PROJECT_ROOT}\GUI\for_testing" name="splash.png" optional="false">C:\Users\지수\Desktop\Gui_plus\gui\GUI\for_testing\splash.png</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>C:\Program Files\MATLAB\R2018a</root>
+      <toolboxes />
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>10.0</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
